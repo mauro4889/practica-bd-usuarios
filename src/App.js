@@ -1,13 +1,13 @@
 import './App.css';
 import { Layout } from './component/Layout/Layout';
 import { Navbar } from './component/Navbar/Navbar';
-import { Usuarios } from './pages/usuarios/Usuarios';
+import { Routes } from './routes/Routes';
 
 function App() {
   return (
     <Layout>
       <Navbar/>
-      <Usuarios/>
+      <Routes/>
     </Layout>
   );
 }
